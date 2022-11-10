@@ -1,7 +1,6 @@
 section.volet {
     position: fixed;
     right: -274px;
-    right: 0px;
     width: 274px;
     box-sizing: border-box;
     top: 1em;
@@ -14,6 +13,9 @@ section.volet {
     border-right: none;
     border-radius: .5em 0 0 .5em;
     transition: right 500ms;
+    &.ouvert {
+        right: 0px;
+    }
 
     h1,
     h2,

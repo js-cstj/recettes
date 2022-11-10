@@ -123,7 +123,6 @@ section.milieu > article h2 {
 section.milieu section.volet {
   position: fixed;
   right: -274px;
-  right: 0px;
   width: 274px;
   box-sizing: border-box;
   top: 1em;
@@ -136,6 +135,9 @@ section.milieu section.volet {
   border-right: none;
   border-radius: 0.5em 0 0 0.5em;
   transition: right 500ms;
+}
+section.milieu section.volet.ouvert {
+  right: 0px;
 }
 section.milieu section.volet h1,
 section.milieu section.volet h2,
@@ -206,4 +208,4 @@ ul.ingredients {
 
 div.pub {
   text-align: center;
-}
+}/*# sourceMappingURL=recettes.css.map */
