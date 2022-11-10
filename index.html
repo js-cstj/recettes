@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- 
+================================================================================
+Consignes
+================================================================================
+- ATTENTION à L'indentation
+- ATTENTION à la validité de la page
+- REMETTRE seulement le fichier "index.html" avec le nom "NOMP1234567.html" 
+  en utilisant VOTRE code de nomenclature
+
+Reproduire la page présentée dans le fichier "final.png"
+La structure de la page est représentée dans le fichier "structure.png"
+Certaines classes supplémentaires à utiliser :
+	"intro" à appliquer au premier paragraphe.
+	"photoprincipale" à appliquer à la balise contenant l'image.
+	"ingredients" à appliquer directement à la liste des ingrédients
+
+Le menu est une liste imbriquée
+Le fichier de travail est situé à la racine du site.
+Les éléments du menu pointent vers les fichiers suivants (Ces pages n'existent pas encore) :
+	"entrees.html", situé à la racine du site
+	"index.html", situé dans le sous-dossier "platsprincipaux"
+	"viande.html", situé dans le sous-dossier "platsprincipaux"
+	"poisson.html", situé dans le sous-dossier "platsprincipaux"
+	"legumes.html", situé dans le sous-dossier "platsprincipaux"
+	"accompagnements.html", situé à la racine du site
+	"desserts.html", situé à la racine du site
+	"boissons.html", situé à la racine du site
+	
+La publicité pointe vers le site de "CommentKonFait" : http://www.commentkonfait.com
+et s'ouvre dans une nouvelle fenêtre.
+
+Les liens dans le pied de page sont :
+	http://tim.cstj.net/web1
+	http://conserves.blogspot.ca/2008/08/la-sauce-piquante-jamacaine-car-la.html
+ -->
+<html lang="fr">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/recettes.css" />
+	<title>La sauce piquante Jamaïcaine</title>
+</head>
+
+<body>
+	<div class="interface">
+		<header>
+			<h1>Les recettes <span>extrêmes</span></h1>
+		</header>
+		<section class="milieu">
+			<aside>
+				<nav>
+					<header>
+						<h1>Menu</h1>
+					</header>
+					<ul>
+						<li><a href="entrees.html">Entrées</a></li>
+						<li><a href="platsprincipaux/index.html">Plats principaux</a>
+							<ul>
+								<li><a href="platsprincipaux/viande.html">Viande</a></li>
+								<li><a href="platsprincipaux/poisson.html">Poisson</a></li>
+								<li><a href="platsprincipaux/légumes.html">Légumes</a></li>
+							</ul>
+						</li>
+						<li><a href="accompagnements.html">Accompagnements</a></li>
+						<li><a href="desserts.html">Desserts</a></li>
+						<li><a href="boissons.html">Boissons</a></li>
+					</ul>
+				</nav>
+				<div class="pub">
+					<a href="http://www.commentkonfait.com" target="_blank"><img src="images/commentkonfait.jpg" alt="commentkonfait" /></a>
+				</div>
+			</aside>
+			<article>
+				<h1>La sauce piquante Jamaïcaine</h1>
+				<p class="intro">Les amateurs de sauce piquante seront choyés avec cette recette. Comparé à ça, la sauce tabasco, c'est du biberon.</p>
+				<p>Tout d'abord, je tiens à lever mon chapeau à un fabricant de sauce piquante du Kensas, Original Juan Specialty Foods, pour l'image de sa marque "Pain is good".</p>
+				<figure class="photoprincipale">
+					<img src="images/painisgood.jpg" alt="Pain Is Good">
+					<figcaption>Pain Is Good</figcaption>
+				</figure>
+				
+				<h2>Ingrédients</h2>
+				<ul class="ingredients">
+					<li>200 g de piments habanero jaunes ou orangés, frais, équeutés et émincés avec les pépins (environ une vingtaine)</li>
+					<li>1/2 tasse (125 g) de chair de mangue en petits dés</li>
+					<li>1/2 tasse (125 g) de chair de papaye en petits dés</li>
+					<li>1/2 tasse (125 g) de chair de tomates rouges en petits dés</li>
+					<li>1/2 tasse (100 g) de cassonade foncée</li>
+					<li>1 1/2 tasse (355 ml) de vinaigre de vin rouge (6 % d'acide acétique, minimum)</li>
+					<li>le jus de 2 citrons verts</li>
+					<li>les zestes fins d'un citron vert</li>
+					<li>3 échalotes grises émincées</li>
+					<li>3 gousses d'ail pelées, écrasées et hachées menu</li>
+				</ul>
+				<h2>Procédure</h2>
+				<ol>
+					<li>Placez tout ça dans une petite casserole en inox ou en verre et porter à frémissements en remuant toujours.</li>
+					<li>Laisser mijoter tout doucement en remuant souvent pour 20 ou 25 minutes.</li>
+					<li>Retirer du feu, couvrir et laisser tiédir.</li>
+					<li>Passez le tout au mélangeur pour obtenir une consistance lisse. Attention aux éclaboussures. Goûtez, avec un verre de lait sous la main.</li>
+					<li>Verser le tout dans la casserole et reporter à ébullition, à feu moyen, en remuant toujours. Si c'est trop épais, ajoutez du vinaigre ou du jus de citron dilué dans autant d'eau. Laisser bouillir une minute avant d'empoter.</li>
+					<li>Empoter en laissant 1/4 de pouce (6 mm) d'espace d'air irrespirable sous le goulot.</li>
+				</ol>
+			</article>
+			<section class="volet">
+				<h1>Mangue</h1>
+				<figure>
+					<img src="images/ingredients/mangue.png" alt="Mangue">
+				</figure>
+				<h2>Valeurs nutritives</h2>
+				<table>
+					<tbody>
+						<tr>
+							<th>Calories</th>
+							<td>3</td>
+						</tr>
+						<tr>
+							<th>Protéines</th>
+							<td>3</td>
+						</tr>
+						<tr>
+							<th>Glucides</th>
+							<td>3</td>
+						</tr>
+						<tr>
+							<th>Lipides</th>
+							<td>3</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+		</section>
+		<footer>
+			<p>Travail fait dans le cadre du cours "<a href="http://tim.cstj.net/web1">Intégration Web I</a>".</p>
+			<p>Le contenu de remplissage provient du site : "<a href="http://conserves.blogspot.ca/2008/08/la-sauce-piquante-jamacaine-car-la.html">Recettes de conserves-maison</a>".</p>
+		</footer>
+	</div>
+</body>
+
+</html>
