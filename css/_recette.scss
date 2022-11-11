@@ -1,0 +1,75 @@
+article.recette {
+	p {
+		margin: 1em 0;
+		text-align: justify;
+	}
+
+	p.intro {
+		color: var(--couleur-principale);
+		font-style: italic;
+		font-weight: bold;
+		line-height: 1.5em;
+	}
+
+	h1 {
+		background-color: var(--couleur-principale);
+		color: white;
+		font-size: 1.5em;
+		margin-top: 0;
+		padding: .5em .5em;
+		text-align: center;
+	}
+
+	h2 {
+		border-bottom: 1px solid var(--couleur-principale);
+		color: var(--couleur-principale);
+		font-size: 1.2em;
+		margin: 1em 0 .5em;
+		padding-bottom: .15em;
+	}
+
+	.ingredients {
+		list-style-image: url("../images/poelepetite.png");
+		margin: 0;
+		padding: 0;
+
+		li {
+			cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="font-size: 20px;"><text y="17">📈</text></svg>') 10 10, pointer;
+			display: flex;
+
+			&:hover {
+				background-color: hsla(var(--hue), var(--sat), 50%, .25);
+			}
+
+			span:first-child {
+				flex: 0 0 12ch;
+			}
+		}
+	}
+
+	.instructions {
+		padding-left: 2.5ch;
+	}
+
+	figure {
+		&.photoprincipale {
+			background-color: white;
+			box-shadow: 0 0 3em;
+			color: var(--couleur-principale);
+			margin: 2em auto;
+			padding: 1em;
+			text-align: center;
+			width: 400px;
+		}
+
+		& > figcaption {
+			font-size: smaller;
+			font-weight: bold;
+		}
+
+		& > img {
+			border: 1px solid var(--couleur-principale-foncee);
+			width: 100%;
+		}
+	}
+}

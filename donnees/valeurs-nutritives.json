@@ -1,0 +1,172 @@
+{
+    "AIL": {
+        "slug": "AIL",
+        "nom": "Ail",
+        "image": "ail.webp",
+        "quantite": "100 g",
+        "calories": "21 kcal",
+        "proteines": "0.8 g",
+        "glucides": "4.6 g",
+        "lipides": "0.3 g"
+    },
+    "CASSONADE": {
+        "slug": "CASSONADE",
+        "nom": "Cassonade",
+        "image": "cassonade.webp",
+        "quantite": "100 g",
+        "calories": "21 kcal",
+        "proteines": "0.8 g",
+        "glucides": "4.6 g",
+        "lipides": "0.3 g"
+    },
+    "ECHALOTES": {
+        "slug": "ECHALOTES",
+        "nom": "Échalotes",
+        "image": "echalotes.webp",
+        "quantite": "100 g",
+        "calories": "21 kcal",
+        "proteines": "0.8 g",
+        "glucides": "4.6 g",
+        "lipides": "0.3 g"
+    },
+    "HABANERO": {
+        "slug": "HABANERO",
+        "nom": "Piment habanero",
+        "image": "habanero.webp",
+        "quantite": "100 g",
+        "calories": "47 kcal",
+        "proteines": "1.9 g",
+        "glucides": "9 g",
+        "lipides": "0.4 g"
+    },
+    "LIME": {
+        "slug": "LIME",
+        "nom": "Lime",
+        "image": "lime.webp",
+        "quantite": "100 g",
+        "calories": "21 kcal",
+        "proteines": "0.8 g",
+        "glucides": "4.6 g",
+        "lipides": "0.3 g"
+    },
+    "MANGUE": {
+        "slug": "MANGUE",
+        "nom": "Mangue",
+        "image": "mangue.webp",
+        "quantite": "100 g",
+        "calories": "63.4 kcal",
+        "proteines": "0.4 g",
+        "glucides": "15 g",
+        "lipides": "0.2 g"
+    },
+    "MAYO": {
+        "slug": "MAYO",
+        "nom": "Mayonnaise",
+        "image": "mayo.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "OIGNON": {
+        "slug": "OIGNON",
+        "nom": "Oignon",
+        "image": "oignon.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "PAPAYE": {
+        "slug": "PAPAYE",
+        "nom": "Papaye",
+        "image": "papaye.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "RELISH": {
+        "slug": "RELISH",
+        "nom": "Relish",
+        "image": "relish.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "SEL": {
+        "slug": "SEL",
+        "nom": "Sel",
+        "image": "sel.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "SUCRE": {
+        "slug": "SUCRE",
+        "nom": "Sucre",
+        "image": "sucre.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "TOMATE": {
+        "slug": "TOMATE",
+        "nom": "Tomate",
+        "image": "tomate.webp",
+        "quantite": "100 g",
+        "calories": "21 kcal",
+        "proteines": "0.8 g",
+        "glucides": "4.6 g",
+        "lipides": "0.3 g"
+    },
+    "VINAIGRE": {
+        "slug": "VINAIGRE",
+        "nom": "Vinaigre blanc",
+        "image": "vinaigre.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "VINAIGRE_VIN_ROUGE": {
+        "slug": "VINAIGRE_VIN_ROUGE",
+        "nom": "Vinaigre de vin rouge",
+        "image": "vinaigre Vin Rouge.webp",
+        "quantite": "100 g",
+        "calories": "21 kcal",
+        "proteines": "0.8 g",
+        "glucides": "4.6 g",
+        "lipides": "0.3 g"
+    },
+    "VINAIGRETTE_FRANCAISE": {
+        "slug": "VINAIGRETTE_FRANCAISE",
+        "nom": "Vinaigrette française",
+        "image": "vinaigrette_francaise.webp",
+        "quantite": "100 g",
+        "calories": "44.2 kcal",
+        "proteines": "0.6 g",
+        "glucides": "10 g",
+        "lipides": "0.2 g"
+    },
+    "ZESTE_LIME": {
+        "slug": "ZESTE_LIME",
+        "nom": "Zestes de lime",
+        "image": "zeste Lime.webp",
+        "quantite": "100 g",
+        "calories": "21 kcal",
+        "proteines": "0.8 g",
+        "glucides": "4.6 g",
+        "lipides": "0.3 g"
+    }
+}
