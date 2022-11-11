@@ -6,6 +6,7 @@ section.volet {
     border: 0px solid var(--couleur-principale-foncee);
     border-radius: .5em 0 0 .5em;
     border-right: none;
+    color: var(--noir);
     margin: 0;
     outline: none;
     overflow-y: auto;
@@ -29,7 +30,7 @@ section.volet {
         }
         &:hover {
             background-color: #0002;
-            color: #444;
+            color: var(--noir);
         }
     }
     &.ouvert {
@@ -54,7 +55,7 @@ section.volet {
     }
 
     img {
-        border: 1px solid black;
+        border: 1px solid var(--noir);
         height: 240px;
         width: 240px;
     }
@@ -64,6 +65,7 @@ section.volet {
         border-collapse: collapse;
         border-width: 3px 0;
         width: 100%;
+        color: inherit;
     }
 
     th {
@@ -74,7 +76,7 @@ section.volet {
 
         th,
         td {
-            border-top: 1px solid black;
+            border-top: 1px solid var(--noir);
         }
     }
 }

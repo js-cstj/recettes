@@ -6,7 +6,7 @@ export default class Recette {
 	 * Méthode principale. Sera appelée après le chargement de la page.
 	 */
 	static main() {
-		this.chargerJson('donnees/por.json').then(objRecette => {
+		this.chargerJson('donnees/piq.json').then(objRecette => {
 			document.title = objRecette.titre + " 🍽 Recettes extrêmes";
 			var vieilArticle = document.querySelector("article");
 			var nouvelArticle = this.html_article(objRecette);

@@ -5,8 +5,10 @@
 html {
   --hue: 20;
   --sat: 100%;
+  --noir: #444;
   --couleur-principale: hsl(var(--hue), var(--sat), 40%);
   --couleur-principale-foncee: hsl(var(--hue), var(--sat), 20%);
+  --noir: hsl(40,100%,10%);
   height: 100%;
   font-family: "Playfair Display", sans-serif;
 }
@@ -38,11 +40,11 @@ th {
 
 div.interface {
   min-height: 100%;
-  color: black;
+  color: var(--noir);
   width: 760px;
   margin: 1em auto;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
+  border: 1px solid var(--noir);
   border-radius: 1em;
   padding: 1em 3em;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
@@ -94,7 +96,7 @@ div.interface > footer p {
   padding: 0.5rem;
 }
 .colonne nav {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--noir);
   margin-bottom: 1em;
   padding-bottom: 1em;
 }
@@ -140,6 +142,7 @@ section.volet {
   border: 0px solid var(--couleur-principale-foncee);
   border-radius: 0.5em 0 0 0.5em;
   border-right: none;
+  color: var(--noir);
   margin: 0;
   outline: none;
   overflow-y: auto;
@@ -165,7 +168,7 @@ section.volet button::before {
 }
 section.volet button:hover {
   background-color: rgba(0, 0, 0, 0.1333333333);
-  color: #444;
+  color: var(--noir);
 }
 section.volet.ouvert {
   right: 0px;
@@ -187,7 +190,7 @@ section.volet figure {
   margin: 0;
 }
 section.volet img {
-  border: 1px solid black;
+  border: 1px solid var(--noir);
   height: 240px;
   width: 240px;
 }
@@ -196,6 +199,7 @@ section.volet table {
   border-collapse: collapse;
   border-width: 3px 0;
   width: 100%;
+  color: inherit;
 }
 section.volet th {
   -moz-text-align-last: left;
@@ -203,7 +207,7 @@ section.volet th {
 }
 section.volet tr:not(:first-child) th,
 section.volet tr:not(:first-child) td {
-  border-top: 1px solid black;
+  border-top: 1px solid var(--noir);
 }
 
 article.recette p {
