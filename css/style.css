@@ -1,0 +1,276 @@
+@charset "UTF-8";
+@import url(../images/seaweed_fire_aoe/style.css);
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html {
+  --hue: 20;
+  --sat: 100%;
+  --noir: #444;
+  --couleur-principale: hsl(var(--hue), var(--sat), 40%);
+  --couleur-principale-foncee: hsl(var(--hue), var(--sat), 20%);
+  --noir: hsl(40,100%,10%);
+  height: 100%;
+  font-family: "Playfair Display", sans-serif;
+}
+
+body {
+  height: 100%;
+  background-image: url(../images/feu.webp);
+  background-color: var(--couleur-principale);
+  color: white;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+  font-family: "Raleway", sans-serif;
+  line-height: 1;
+}
+
+div.interface {
+  min-height: 100%;
+  color: var(--noir);
+  width: 760px;
+  margin: 1em auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--noir);
+  border-radius: 1em;
+  padding: 1em 3em;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  background-image: url(../images/poele.png);
+  background-repeat: no-repeat;
+  background-position: 20px -40px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+div.interface > header {
+  font-weight: bold;
+  padding: 0 0 22px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  grid-column: 1/-1;
+}
+div.interface > header > h1 {
+  font-size: 60px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: fire;
+}
+div.interface > header > h1 > * {
+  font-size: 2em;
+  color: var(--couleur-principale);
+  vertical-align: middle;
+  margin-left: 0.3em;
+}
+div.interface > footer {
+  clear: both;
+  border-top: 4px solid var(--couleur-principale);
+  font-size: smaller;
+  text-align: center;
+  padding-top: 0.5em;
+  margin-top: 1em;
+  grid-column: 1/-1;
+}
+div.interface > footer a {
+  color: inherit;
+}
+div.interface > footer p {
+  margin: 0;
+}
+
+.colonne {
+  background-color: hsl(var(--hue), var(--sat), 10%, 0.1);
+  padding: 0.5rem;
+}
+.colonne nav {
+  border-bottom: 1px solid var(--noir);
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+.colonne nav h1 {
+  font-size: 1em;
+}
+.colonne nav li {
+  margin: -0.25em 0;
+}
+.colonne nav a {
+  color: inherit;
+  display: block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+}
+.colonne nav a:hover {
+  background-color: hsla(var(--hue), var(--sat), 10%, 0.1);
+}
+.colonne nav header {
+  background-color: var(--couleur-principale);
+  color: white;
+  font-size: 18px;
+  margin: 0 0 10px;
+  padding: 0.25em 0;
+  text-align: center;
+}
+.colonne nav ul ul {
+  margin-left: 1em;
+}
+.colonne nav ul,
+.colonne nav ol {
+  font-size: 1em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section.volet {
+  background-color: wheat;
+  bottom: 1em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5333333333);
+  box-sizing: border-box;
+  border: 0px solid var(--couleur-principale-foncee);
+  border-radius: 0.5em 0 0 0.5em;
+  border-right: none;
+  color: var(--noir);
+  margin: 0;
+  outline: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem;
+  position: fixed;
+  right: -274px;
+  top: 1em;
+  transition: right 500ms;
+  width: 274px;
+}
+section.volet button {
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.3333333333);
+  padding: 0.25em 0.5em;
+  position: absolute;
+  right: 0em;
+  top: 0em;
+}
+section.volet button::before {
+  content: "🞫";
+}
+section.volet button:hover {
+  background-color: rgba(0, 0, 0, 0.1333333333);
+  color: var(--noir);
+}
+section.volet.ouvert {
+  right: 0px;
+}
+section.volet h1,
+section.volet h2,
+section.volet h3 {
+  margin: 0;
+}
+section.volet h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25em;
+}
+section.volet h2 {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+section.volet figure {
+  margin: 0;
+}
+section.volet img {
+  border: 1px solid var(--noir);
+  height: 240px;
+  width: 240px;
+}
+section.volet table {
+  border: 3px solid var(--couleur-principale-foncee);
+  border-collapse: collapse;
+  border-width: 3px 0;
+  width: 100%;
+  color: inherit;
+}
+section.volet th {
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+section.volet tr:not(:first-child) th,
+section.volet tr:not(:first-child) td {
+  border-top: 1px solid var(--noir);
+}
+
+article.recette p {
+  margin: 1em 0;
+  text-align: justify;
+}
+article.recette p.intro {
+  color: var(--couleur-principale);
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+article.recette h1 {
+  background-color: var(--couleur-principale);
+  color: white;
+  font-size: 1.5em;
+  margin-top: 0;
+  padding: 0.5em 0.5em;
+  text-align: center;
+}
+article.recette h2 {
+  border-bottom: 1px solid var(--couleur-principale);
+  color: var(--couleur-principale);
+  font-size: 1.2em;
+  margin: 1em 0 0.5em;
+  padding-bottom: 0.15em;
+}
+article.recette .ingredients {
+  list-style-image: url("../images/poelepetite.png");
+  margin: 0;
+  padding: 0;
+}
+article.recette .ingredients li {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="font-size: 20px;"><text y="17">📈</text></svg>') 10 10, pointer;
+  display: flex;
+}
+article.recette .ingredients li:hover {
+  background-color: hsla(var(--hue), var(--sat), 50%, 0.25);
+}
+article.recette .ingredients li span:first-child {
+  flex: 0 0 12ch;
+}
+article.recette .instructions {
+  padding-left: 2.5ch;
+}
+article.recette figure.photoprincipale {
+  background-color: white;
+  box-shadow: 0 0 3em;
+  color: var(--couleur-principale);
+  margin: 2em auto 3em;
+  padding: 1em;
+  text-align: center;
+  width: 400px;
+}
+article.recette figure > figcaption {
+  font-size: smaller;
+  font-weight: bold;
+}
+article.recette figure > img {
+  border: 1px solid var(--couleur-principale-foncee);
+  width: 100%;
+}
+
+div.pub {
+  text-align: center;
+}

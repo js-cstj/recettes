@@ -1,0 +1,70 @@
+{
+    "slug": "far",
+    "titre": "Tarte à la farlouche",
+    "intro": "La tarte à la farlouche est un dessert Québécois qu’on ne peut pas réinventer. C’est en fait une tarte à la mélasse. La farlouche (ou forlouche) est finalement le nom de la sauce à la mélasse composée de raisins secs.",
+    "description": "Je préfère d’habitude manger la mélasse avec les crêpes du matin, mais j’avoue que j’ai tout de même été séduie par cette recette traditionnelle.",
+    "image": {
+        "url": "images/farlouche.jpg",
+        "legende": "La fameuse tarte à la farlouche"
+    },
+    "ingredients": [
+        {
+            "slug": "MELASSE",
+            "quantite": "1",
+            "unite": "tasse",
+            "ingredient": "Mélasse"
+        },
+        {
+            "slug": "CASSONADE",
+            "quantite": "1",
+            "unite": "tasse",
+            "ingredient": "Cassonade"
+        },
+        {
+            "slug": "OEUF",
+            "quantite": "3",
+            "unite": "",
+            "ingredient": "Oeufs battus"
+        },
+        {
+            "slug": "BEURRE",
+            "quantite": "1",
+            "unite": "c. à soupe",
+            "ingredient": "Beurre"
+        },
+        {
+            "slug": "LAIT",
+            "quantite": "1",
+            "unite": "tasse",
+            "ingredient": "Lait"
+        },
+        {
+            "slug": "FECULE_MAIS",
+            "quantite": "2",
+            "unite": "c. à soupe",
+            "ingredient": "Fécule de maïs"
+        },
+        {
+            "slug": "RAISIN_SEC",
+            "quantite": "1",
+            "unite": "tasse",
+            "ingredient": "Raisins secs"
+        },
+        {
+            "slug": "PATE_BRISEE",
+            "quantite": "1",
+            "unite": "",
+            "ingredient": "Pâte brisée"
+        }
+    ],
+    "instructions": [
+        "Dans une casserole, faites chauffer à feu moyen la mélasse, la cassonade, les oeufs, le beurre et le lait.",
+        "Ajoutez la fécule de maïs et laissez cuire un peu en remuant constamment (pour que ça épaississe). Ajoutez les raisins hors du feu et mélangez.",
+        "Versez la préparation dans le fond de la tarte et enfournez environ 35 minutes à 350 degrés F.",
+        "Laissez refroidir complètement avant de couper."
+    ],
+    "reference": {
+        "url": "http://gourmandisesduquebec.com/2011/05/05/tarte-a-la-farlouche/",
+        "titre": "Les gourmandises du Québec"
+    }
+}

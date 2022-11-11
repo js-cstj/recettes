@@ -1,19 +1,41 @@
 section.volet {
-    position: fixed;
-    right: -274px;
-    right: 0px;
-    width: 274px;
-    box-sizing: border-box;
-    top: 1em;
+    background-color: wheat;
     bottom: 1em;
+    box-shadow: 0 0 .5em #0008;
+    box-sizing: border-box;
+    border: 0px solid var(--couleur-principale-foncee);
+    border-radius: .5em 0 0 .5em;
+    border-right: none;
+    color: var(--noir);
     margin: 0;
+    outline: none;
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: wheat;
-    border: 3px solid brown;
-    border-right: none;
-    border-radius: .5em 0 0 .5em;
+    padding: 1rem;
+    position: fixed;
+    right: -274px;
+    top: 1em;
     transition: right 500ms;
+    width: 274px;
+    button {
+        background-color: transparent;
+        border: none;
+        color: #0005;
+        padding: .25em .5em;
+        position: absolute;
+        right: 0em;
+        top: 0em;
+        &::before {
+            content: "🞫";
+        }
+        &:hover {
+            background-color: #0002;
+            color: var(--noir);
+        }
+    }
+    &.ouvert {
+        right: 0px;
+    }
 
     h1,
     h2,
@@ -21,7 +43,8 @@ section.volet {
         margin: 0;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: .25em;
     }
     h2 {
         font-size: 1.25rem;
@@ -32,15 +55,17 @@ section.volet {
     }
 
     img {
-        width: 240px;
+        border: 1px solid var(--noir);
         height: 240px;
+        width: 240px;
     }
 
     table {
-        border: 3px solid black;
+        border: 3px solid var(--couleur-principale-foncee);
+        border-collapse: collapse;
         border-width: 3px 0;
         width: 100%;
-        border-collapse: collapse;
+        color: inherit;
     }
 
     th {
@@ -51,7 +76,7 @@ section.volet {
 
         th,
         td {
-            border-top: 1px solid black;
+            border-top: 1px solid var(--noir);
         }
     }
 }

@@ -1,0 +1,62 @@
+{
+    "slug": "mac",
+    "titre": "Sauce à Big Mac",
+    "intro": "Tout le monde s'entendent pour dire qu'ils sont; EXCELLENTS, DÉBILLES Ais-je besoin de vous dire combien j'ai fait des p'tits Heureux hier soir avec ces Big Mac maison!!",
+    "description": "Non sans blague le goût est identique!!\r\nPour les boulettes, j'ai tout simplement pris de la viande hachée très très maigre dont j'ai mélangé un sachet de soupe à l'oignon ainsi que d'un peu de thym et du poivre. J'ai cuit et fait les hamburgers comme au Mc Do!! Bon ils ne sont pas aussi beaux mais ils goûtent pareille par exemple",
+    "image": {
+        "url": "images/sauce.jpg",
+        "legende": "La vraie recette de sauce à Big Mac"
+    },
+    "ingredients": [
+        {
+			"slug": "MAYO",
+			"quantite": "&frac14;",
+			"unite": "tasse",
+			"ingredient": "Mayonnaise"
+		},
+        {
+			"slug": "RELISH",
+			"quantite": "4",
+			"unite": "c. à thé",
+			"ingredient": "Relish sucrée"
+		},
+        {
+			"slug": "OIGNON",
+			"quantite": "1",
+			"unite": "c. à soupe",
+			"ingredient": "Oignon haché"
+		},
+        {
+			"slug": "VINAIGRE",
+			"quantite": "1",
+			"unite": "c. à thé",
+			"ingredient": "Vinaigre blanc"
+		},
+        {
+			"slug": "SUCRE",
+			"quantite": "1",
+			"unite": "c. à thé",
+			"ingredient": "Sucre"
+		},
+        {
+			"slug": "SEL",
+			"quantite": "&frac18;",
+			"unite": "c. à thé",
+			"ingredient": "Sel"
+		},
+        {
+			"slug": "VINAIGRETTE_FRANCAISE",
+			"quantite": "2",
+			"unite": "c. à soupe",
+			"ingredient": "Vinaigrette française (orange)"
+		}
+    ],
+    "instructions": [
+        "Bien mélanger tous les ingrédients ensembles",
+        "Laisser reposer quelques heures, au réfrigérateur"
+    ],
+	"reference": {
+		"url": "http://www.recettesecretes.com/detail.asp?receipe=174",
+		"titre": "Recettes secrètes"
+	}
+}
