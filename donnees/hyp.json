@@ -1,0 +1,62 @@
+{
+    "slug": "hyp",
+    "titre": "Hypocras",
+    "intro": "Si l’hypocras fut l’apéritif médiéval par excellence, la recette est bien plus ancienne. C’est au Ve siècle avant J.C. que le célèbre médecin grec Hippocrate inventa la précieuse recette qualifiée de «&nbsp;potion magique&nbsp;».",
+    "description": "Il y a de nombreuses recettes de cette fameuse boisson tonifiante et même aphrodisiaque (disait-on). C’est en fait un vin rouge ou blanc auquel on ajoute du sucre pour ensuite faire macérer, certains font cuire, de nombreuses plantes et épices.\r\nLe roi Henri IV, Louis XIV et Rabelais furent parmi ses plus célèbres adeptes. Voici la traduction de la recette du 15e siècle tirée du «&nbsp;Viandier&nbsp;» de Taillevent&nbsp;.",
+    "image": {
+        "url": "images/epices.jpg",
+        "legende": "Les épices pour faire de l'hypocras"
+    },
+    "ingredients": [
+        {
+			"slug": "GIROFLE",
+			"quantite": "10",
+			"unite": "",
+			"ingredient": "Clous de girofle"
+		},
+        {
+			"slug": "CARDAMOME",
+			"quantite": "10",
+			"unite": "",
+			"ingredient": "Gousses de cardamome"
+		},
+        {
+			"slug": "CANNELLE",
+			"quantite": "30",
+			"unite": "g",
+			"ingredient": "Cannelle"
+		},
+        {
+			"slug": "GINGEMBRE",
+			"quantite": "60",
+			"unite": "gramme",
+			"ingredient": "Gingembre râpé"
+		},
+        {
+			"slug": "VIN_ROUGE",
+			"quantite": "1",
+			"unite": "bouteille",
+			"ingredient": "Vin rouge (du bourgogne)"
+		},
+        {
+			"slug": "SUCRE",
+			"quantite": "100",
+			"unite": "gramme",
+			"ingredient": "Sucre"
+		}
+    ],
+    "instructions": [
+        "Broyez le girofle, la cardamome et la cannelle;",
+        "Mélangez le gingembre râpé.",
+        "Disposez le tout dans une fine toile que vous nouez fortement.",
+        "Versez le vin dans un récipient avec les épices dans le sac de toile.",
+        "Ajoutez le sucre;",
+        "Couvrez et laissez macérer au moins 3 Heures.",
+        "Avec une macération plus longue (attention à ne pas éventer le vin toutefois...), les arômes seront bien sûr plus prononcés.",
+        "Une fois la macération terminée, retirer le sac d'épices, filtrez le vin jusqu'à ce qu'il n'y ait plus de dépôts..."
+    ],
+    "reference": {
+        "url": "http://www.1001-fruits.com/recettes-medievales.html",
+        "titre": "1001-fruits"
+    }
+}

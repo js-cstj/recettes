@@ -1,0 +1,52 @@
+{
+    "slug": "por",
+    "titre": "Porridge à la pomme et à la cannelle",
+    "intro": "Les flocons d'avoine utilisés pour réaliser le porridge sont reconnus comme un des aliments les plus nutritifs, aussi les plus simples à cuisiner et les plus abordables. Chaque foyer en Irlande a sa propre méthode de préparation du porridge, mais la mienne semble varier en fonction de mon humeur. Les matins où je suis pressé, je le prépare au four à micro-ondes avec un peu de miel et d'eau, mais les jours où j'ai le temps, voici comment je le cuisine...",
+    "description": "La combinaison de la texture de la pomme froide sucrée et acidulée et du crémeux porridge est un plaisir pour le palais. Parfait petit déjeuner réconfortant pour un matin froid.\r\nUn déjeuner complet pour bien démarrer la journée! ",
+    "image": {
+        "url": "images/porridge.jpg",
+        "legende": "Porridge à la pomme et à la cannelle"
+    },
+    "ingredients": [
+        {
+			"slug": "AVOINE",
+			"quantite": "250",
+			"unite": "gramme",
+			"ingredient": "Flocons d'avoine"
+		},
+        {
+			"slug": "LAIT",
+			"quantite": "480",
+			"unite": "ml",
+			"ingredient": "Lait"
+		},
+        {
+			"slug": "POMME",
+			"quantite": "1",
+			"unite": "",
+			"ingredient": "Grosse pomme râpée"
+		},
+        {
+			"slug": "CANNELLE",
+			"quantite": "Au goût",
+			"unite": "",
+			"ingredient": "Cannelle"
+		},
+        {
+			"slug": "MIEL",
+			"quantite": "1",
+			"unite": "filet",
+			"ingredient": "Miel pour donner du goût"
+		}
+    ],
+    "instructions": [
+        "Râper la pomme juste avant de servir pour éviter qu'elle brunisse.",
+        "Mélanger dans une petite casserole le lait avec les flocons d'avoine et faire cuire à feu moyen en remuant constamment. Il faut en général 10 minutes pour obtenir la bonne consistence.",
+        "Ajouter la pomme râpée et mélanger. ",
+        "Saupoudrer de cannelle, verser un filet de miel et servir directement."
+    ],
+    "reference": {
+        "url": "http://www.750g.com/fiche_de_cuisine.2.123.33532.htm",
+        "titre": "750 grammes"
+    }
+}

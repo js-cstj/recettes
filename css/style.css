@@ -49,11 +49,15 @@ div.interface {
   background-image: url(../images/poele.png);
   background-repeat: no-repeat;
   background-position: 20px -40px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
 }
 div.interface > header {
   font-weight: bold;
   padding: 0 0 22px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  grid-column: 1/-1;
 }
 div.interface > header > h1 {
   font-size: 60px;
@@ -75,7 +79,8 @@ div.interface > footer {
   font-size: smaller;
   text-align: center;
   padding-top: 0.5em;
-  margin-top: 2em;
+  margin-top: 1em;
+  grid-column: 1/-1;
 }
 div.interface > footer a {
   color: inherit;
@@ -84,37 +89,31 @@ div.interface > footer p {
   margin: 0;
 }
 
-section.milieu {
-  display: flex;
-  margin-bottom: 1em;
-  gap: 1em;
-}
-section.milieu > * {
-  flex: 1 0 0;
-}
-section.milieu > aside, section.milieu > section {
+.colonne {
   background-color: hsl(var(--hue), var(--sat), 10%, 0.1);
-  flex: 0 0 160px;
   padding: 0.5rem;
 }
-section.milieu > aside nav, section.milieu > section nav {
+.colonne nav {
   border-bottom: 1px solid black;
   margin-bottom: 1em;
   padding-bottom: 1em;
 }
-section.milieu > aside nav li, section.milieu > section nav li {
+.colonne nav h1 {
+  font-size: 1em;
+}
+.colonne nav li {
   margin: -0.25em 0;
 }
-section.milieu > aside nav a, section.milieu > section nav a {
+.colonne nav a {
   color: inherit;
   display: block;
   padding: 0.25em 0.5em;
   text-decoration: none;
 }
-section.milieu > aside nav a:hover, section.milieu > section nav a:hover {
+.colonne nav a:hover {
   background-color: hsla(var(--hue), var(--sat), 10%, 0.1);
 }
-section.milieu > aside nav header, section.milieu > section nav header {
+.colonne nav header {
   background-color: var(--couleur-principale);
   color: white;
   font-size: 18px;
@@ -122,18 +121,18 @@ section.milieu > aside nav header, section.milieu > section nav header {
   padding: 0.25em 0;
   text-align: center;
 }
-section.milieu > aside nav ul ul, section.milieu > section nav ul ul {
+.colonne nav ul ul {
   margin-left: 1em;
 }
-section.milieu > aside nav ul,
-section.milieu > aside nav ol, section.milieu > section nav ul,
-section.milieu > section nav ol {
+.colonne nav ul,
+.colonne nav ol {
   font-size: 1em;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-section.milieu section.volet {
+
+section.volet {
   background-color: wheat;
   bottom: 1em;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5333333333);
@@ -152,7 +151,7 @@ section.milieu section.volet {
   transition: right 500ms;
   width: 274px;
 }
-section.milieu section.volet button {
+section.volet button {
   background-color: transparent;
   border: none;
   color: rgba(0, 0, 0, 0.3333333333);
@@ -161,49 +160,49 @@ section.milieu section.volet button {
   right: 0em;
   top: 0em;
 }
-section.milieu section.volet button::before {
+section.volet button::before {
   content: "🞫";
 }
-section.milieu section.volet button:hover {
+section.volet button:hover {
   background-color: rgba(0, 0, 0, 0.1333333333);
   color: #444;
 }
-section.milieu section.volet.ouvert {
+section.volet.ouvert {
   right: 0px;
 }
-section.milieu section.volet h1,
-section.milieu section.volet h2,
-section.milieu section.volet h3 {
+section.volet h1,
+section.volet h2,
+section.volet h3 {
   margin: 0;
 }
-section.milieu section.volet h1 {
+section.volet h1 {
   font-size: 1.5rem;
   margin-bottom: 0.25em;
 }
-section.milieu section.volet h2 {
+section.volet h2 {
   font-size: 1.25rem;
   margin-top: 0.5rem;
 }
-section.milieu section.volet figure {
+section.volet figure {
   margin: 0;
 }
-section.milieu section.volet img {
+section.volet img {
   border: 1px solid black;
   height: 240px;
   width: 240px;
 }
-section.milieu section.volet table {
+section.volet table {
   border: 3px solid var(--couleur-principale-foncee);
   border-collapse: collapse;
   border-width: 3px 0;
   width: 100%;
 }
-section.milieu section.volet th {
+section.volet th {
   -moz-text-align-last: left;
        text-align-last: left;
 }
-section.milieu section.volet tr:not(:first-child) th,
-section.milieu section.volet tr:not(:first-child) td {
+section.volet tr:not(:first-child) th,
+section.volet tr:not(:first-child) td {
   border-top: 1px solid black;
 }
 
@@ -254,7 +253,7 @@ article.recette figure.photoprincipale {
   background-color: white;
   box-shadow: 0 0 3em;
   color: var(--couleur-principale);
-  margin: 2em auto;
+  margin: 2em auto 3em;
   padding: 1em;
   text-align: center;
   width: 400px;

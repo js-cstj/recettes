@@ -1,0 +1,49 @@
+{
+    "slug": "suc",
+    "titre": "Le sucre à la crème",
+    "intro": "Je pourrais en faire toute l'année... Mais non&nbsp;!.. Je n'en fais que pour Noël... C'est la sucrerie la meilleure que je connaisse... c'est... n'ayons pas peur des mots... jouissif pour le palais... et c'est la gourmandise, qui pour moi, représente le mieux Noël... et le Québec&nbsp;!",
+    "description": "Il faut que le sucre à la crème se tienne mais qu il soit fondant dans la bouche.\r\nSi vous l'avez trop cuit, il sera cassant et grumeleux..et c'est carrément moins bon&nbsp;!\r\nIl existe beaucoup de variantes et de recettes, mais pour mes proches et moi même, cette recette est la meilleure.\r\nNote importante\r\nAvant de commencer, je vous conseille vivement de tarer votre thermomètre à bonbons.\r\nFaire bouillir de l'eau et y plonger le thermomètre. Si il est bien \"réglé\" il devrait être à 100 C....si ce n'est pas le cas, ajouter ou diminuer en fonction de température demandée pour obtenir un sucre à la crème parfait.",
+    "image": {
+        "url": "images/sucre.jpg",
+        "legende": "Le meilleur des sucres à la crème"
+    },
+    "ingredients": [
+        {
+            "slug": "CREME_35",
+            "quantite": "2",
+            "unite": "tasse",
+            "ingredient": "Crème 35%"
+        },
+        {
+            "slug": "CASSONADE",
+            "quantite": "2&frac14;",
+            "unite": "tasse",
+            "ingredient": "Cassonade"
+        },
+        {
+            "slug": "SUCRE",
+            "quantite": "2",
+            "unite": "c. à soupe",
+            "ingredient": "Sucre"
+        },
+        {
+            "slug": "SIROP_MAIS",
+            "quantite": "2",
+            "unite": "c. à soupe",
+            "ingredient": "Sirop de maïs (peut être remplacé par du sirop de canne à sucre ou du sirop d'érable)"
+        }
+    ],
+    "instructions": [
+        "Dans une casserole, mélanger tous les ingrédients.",
+        "Porter à ébullition et cuire a feu vif environ 20 min, ou jusqu'à ce qu'un thermomètre à bonbons indique 116&deg;C (241&deg;F ).",
+        "Retirer du feu et laissez tiédir 10 min.",
+        "Fouetter à vitesse élevée pendant 5 min avec le batteur électrique. (je jauge à l'oeil..ça épaissit)",
+        "Étendre dans le moule carré, chemisé, de 8\" (20 cm).",
+        "Couvrir et laisser refroidir plusieurs heures.",
+        "Découper en carres et servir."
+    ],
+    "reference": {
+        "url": "http://www.lesgourmandisesdisa.com/2006/12/incontournable-nol-le-sucre-la-crme.html",
+        "titre": "Les gourmandises d'Isa"
+    }
+}
